@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{86F526C1-5DBC-4A34-A0FD-74E10198E93B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCode", "src\QRCode\QRCode.csproj", "{6D475E72-6EEA-4E6C-B6CB-4D599F9CA065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCode.Tests", "src\QRCode.Tests\QRCode.Tests.csproj", "{F77B7204-63EB-4ED4-89E9-32A1C29086A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D475E72-6EEA-4E6C-B6CB-4D599F9CA065} = {86F526C1-5DBC-4A34-A0FD-74E10198E93B}
+		{F77B7204-63EB-4ED4-89E9-32A1C29086A8} = {86F526C1-5DBC-4A34-A0FD-74E10198E93B}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D475E72-6EEA-4E6C-B6CB-4D599F9CA065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D475E72-6EEA-4E6C-B6CB-4D599F9CA065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D475E72-6EEA-4E6C-B6CB-4D599F9CA065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D475E72-6EEA-4E6C-B6CB-4D599F9CA065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77B7204-63EB-4ED4-89E9-32A1C29086A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77B7204-63EB-4ED4-89E9-32A1C29086A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77B7204-63EB-4ED4-89E9-32A1C29086A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77B7204-63EB-4ED4-89E9-32A1C29086A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
